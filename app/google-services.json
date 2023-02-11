@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "94718363970",
+    "project_id": "book-app-5c241",
+    "storage_bucket": "book-app-5c241.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94718363970:android:fb39b986f4b0824b10e0db",
+        "android_client_info": {
+          "package_name": "com.zobayer.bookapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "94718363970-kdtp8eaed9dg5k258nn9f02fotsptb3k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zobayer.bookapp",
+            "certificate_hash": "5a5404dde3353cfbdd0b0a1161507b23f9b52a29"
+          }
+        },
+        {
+          "client_id": "94718363970-tjlvj3g0fknthso7skssci8g2jmjcelg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrkGW4IXWuMxIopwaWd86m095EjRupL_Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "94718363970-tjlvj3g0fknthso7skssci8g2jmjcelg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

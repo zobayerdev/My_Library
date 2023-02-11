@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zobayer.bookapp">
+    <!-- all Require Permission -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/applogo2"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/applogo2"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".activites.AboutUsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activites.ProfileEditActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activites.ProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activites.PdfViewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activites.PdfDetailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activites.PdfEditActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activites.PdfListAdminActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activites.PdfAddActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activites.CategoryAddActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activites.DashboardUserActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activites.DashboardAdminActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activites.LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activites.RegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activites.DashBoardActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activites.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My Books Library</string>
+    <string name="new_user_signup">New user?<b> Sign-up</b></string>
+    <string name="add_books_category">(+) Add Books Category</string>
+    <string name="university_name">University Name</string>
+    <string name="category_title">Category Title</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about_this_apps"><b><u>About This Apps:-</u></b></string>
+    <string name="about_text">This is what our section is made for. We will publish all the books of our department here, so that we can all benefit.
+Originally I created this app for this service. If everyone cooperates, we will definitely move forward.</string>
+
+    <string name="copyright">This apps document is protected by HP3 software Limited copyright Laws. Reproduction and distribution of the presentation without written permission of the sponsor(HP3) is prohibited.</string>
+    <string name="copy_right"><b><u>Copy Right:-</u></b></string>
+    <string name="dev_bio"><b><u>Developer Contact:-</u></b></string>
+
+    <string name="Bio_Data">Assalamualaikum.\n I am Md. Zobayer Hasan Nayem. I am currently studying in the Department of Computer Science and Engineering in Bangladesh University Of Business and Technology (BUBT).
+        I am working in app development as well as studying. I have an IT firm. (HP3 Software Solutions).
+        If you have any problems using in this app, please contact me via email or Whatsapp.
+    </string>
+</resources>
